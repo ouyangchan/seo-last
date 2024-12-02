@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="详细介绍顺德清水打边炉的特色和制作方法。">
+    <meta name="keywords" content="顺德清水打边炉, 清水打边炉特色, 清水打边炉制作">
+    <meta name="author" content="顺德美食之旅">
+    <title>顺德清水打边炉 - 探索顺德特色美食</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+    
+        header,
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+    
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+    
+        nav ul li a:hover {
+            background-color: #555;
+        }
+    
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+    
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+    
+        section p {
+            color: #666;
+        }
+    
+        footer p {
+            margin: 0;
+            color: #fff;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+    
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            display: none;
+        }
+    
+        .back-to-top:hover {
+            background-color: #555;
+        }
+    
+        /* 修改锚点的基本样式 */
+        a {
+            color: #333;
+            /* 默认链接颜色 */
+            text-decoration: none;
+            /* 移除下划线 */
+            transition: color 0.3s;
+            /* 平滑颜色过渡效果 */
+        }
+    
+        a:hover {
+            color: #555;
+            text-decoration: underline;
+        }
+    
+        a:visited {
+            color: #666;
+        }
+    
+        a:active {
+            color: #777;
+        }
+/* 按钮样式 */
+button {
+    color: #fff; /* 文字颜色为白色 */
+    border: none; /* 移除边框 */
+    padding: 10px 20px; /* 添加内边距 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 移除链接下划线 */
+    display: inline-block; /* 行内块元素 */
+    font-size: 16px; /* 字体大小 */
+    transition: background-color 0.3s; /* 平滑背景颜色过渡效果 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+}
+
+button:hover {
+    background-color: #555; /* 鼠标悬停时背景颜色变深 */
+}
+
+/* a标签样式 */
+button a {
+    color: #fff; /* 链接文字颜色为白色 */
+    text-decoration: none; /* 移除链接下划线 */
+}
+
+button a:hover {
+    text-decoration: underline; /* 鼠标悬停时链接显示下划线 */
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>顺德清水打边炉</h1>
+    </header>
+    <nav>
+        <ul style="text-align: center;">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="shangna_ji.html">桑拿鸡</a></li>
+            <!-- 其他导航链接 -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>清水打边炉</h2>
+            <img src="img\清水打边炉.jpg" alt="清水打边炉" width="500" height="300">
+            <p>世间火锅万万千，只有顺德的清水打边炉，原汁原味得来又让人过“嘴”不忘...</p>
+        <button><a href="index.html">回到主页</a></button>
+
+        </section>
+    </main>
+    <a href="#" class="back-to-top">回到顶部</a>
+    <footer>
+        <p>版权所有 &copy; 2024 顺德美食之旅</p>
+    </footer>
+    <script>
+        // 省略JavaScript代码，与index.html相同
+    </script>
+</body>
+
+<script>
+    // 当用户滚动到页面底部时显示回到顶部按钮
+    window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.querySelector('.back-to-top').style.display = 'block';
+        } else {
+            document.querySelector('.back-to-top').style.display = 'none';
+        }
+    };
+
+    // 点击回到顶部按钮时滚动到页面顶部
+    document.querySelector('.back-to-top').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</html>
